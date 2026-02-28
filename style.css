@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    
+    
+}
+#navbar{
+    height: 60px;
+    background-color: #101616;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color:#f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+.contentbox1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-image: url(soap_img.jpg.jpg);
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+
+}
+.contentbox2{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-image: url("phone_img.jpg.jpg");
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+.contentbox3{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-image: url("movie_img.jpg.jpg");
+    background-size: cover;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+
+
+#content
+{
+    height: 540px;
+}
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
