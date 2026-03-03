@@ -2,35 +2,218 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon Clone</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div id="navbar">
-      <a href="#" id="logo">amazon.in</a>
-      <a href="#">Account</a>
-      <a href="#">My Cart</a>
-      <a href="#">Contact Us</a>
-      <input placeholder="search Amazon.in">
-      <button>Search</button>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-address border">
+                <p class="add-first">Deliver to </p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">India</p>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Searach Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p><span>Hello,sign in</span></p>
+                <p class="nav-second">Accound & List</p>
+            </div>
+            <div class="nav-return border">
+                <p><span>Return</span></p>
+                <p class="nav-second">&Orders</p>
+            </div>
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+
+            </div>
+            <div class="panel-ops">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in electronic
+            </div>
+        </div>
+
+
+
+    </header>
+    <div class="hero-section">
+        <div class="hero-msg">
+            <p>You are on amazon.com.You can also shop on Amazon India for million of products with fast local delivery.
+                <a>Click here to go to amazon.in</a>
+            </p>
+        </div>
     </div>
-  </header>
-  <div id="content">
-    <div class="contentbox1" style="background-color: rgba(255,0,0,0.5);">Buy your favorite soap
-
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Up to 60% off | Bestsellers from women-led brandse</h2>
+                <div class="box-imge" style="background-image: url(5_img.pjg.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Min.35% off | Trending & must-haves | Small Busin…</h2>
+                <div class="box-imge" style="background-image: url(6_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Up to 50% off | International brands</h2>
+                <div class="box-imge" style="background-image: url(7_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Customers’ Most-Loved Fashion for you</h2>
+                <div class="box-imge" style="background-image: url(9_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
     </div>
-    <div class="contentbox2" style="background-color: rgba(0,255,0,0.5);">Buyyour favorite Mobile</div>
-    <div class="contentbox3" style="background-color: rgba(0,0,255,0.5);">Buy you favorite Movie</div>
-  
-  </div>
-  <footer>Made with &hearts; by Amazon <br>
-    &#169;1996-2026,Amazon.com,Inc.or its affiliates</footer>
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Revamp your home in style</h2>
+                <div class="box-imge" style="background-image: url(re_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box-imge" style="background-image: url(2_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Bulk order discounts + Up to 18% GST savings</h2>
+                <div class="box-imge" style="background-image: url(3_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Best Sellers in Beauty</h2>
+                <div class="box-imge" style="background-image: url(4_img.jpg);"></div>
+                <p>See more...</p>
+            </div>
+        </div>
+        <div class="signin">
+        
+                
+            
+            <div class="seemore" >
+                <h2>See personalized recommendations</h2>
+                <button><a>Sign in</a></button>
+            
+            <div class="customer">
+                <p>New Customer? <a>Start here</a></p>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="foot-panel">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to know Us</p>
+                <a>Careers</a> 
+                <a>Blog</a>
+                 <a>About Amazon</a>
+                  <a>Inverstor Realtions</a>
+                   <a>Amazon Devices</a>
+                    <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to know Us</p>
+                <a>Careers</a> 
+                <a>Blog</a>
+                 <a>About Amazon</a>
+                  <a>Inverstor Realtions</a>
+                   <a>Amazon Devices</a>
+                    <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to know Us</p>
+                <a>Careers</a> 
+                <a>Blog</a>
+                 <a>About Amazon</a>
+                  <a>Inverstor Realtions</a>
+                   <a>Amazon Devices</a>
+                    <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Get to know Us</p>
+                <a>Careers</a> 
+                <a>Blog</a>
+                 <a>About Amazon</a>
+                  <a>Inverstor Realtions</a>
+                   <a>Amazon Devices</a>
+                    <a>Amazon Science</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo">
+
+            </div>
+
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Condition of Use</a>
+                <a>privacy Notice</a>
+                <a>Your Ads privacy Choices</a>
+            </div>
+            <div class="copy">
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
 
 
+    
 
 
 </body>
